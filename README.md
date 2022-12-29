@@ -85,3 +85,21 @@ model = keras.Sequential([
                         keras.layers.Dense(100, activation = 'relu'),
                         keras.layers.Dense(2, activation = 'softmax')
 ])
+model.compile(optimizer = 'Adam',
+              loss = 'sparse_categorical_crossentropy',
+             metrics = ['accuracy'])
+r = model.fit(X_train,y_train, validation_split = 0.2, epochs=30)
+plt.plot(r.history['accuracy'])
+plt.plot(r.history['val_accuracy'])
+plt.plot(r.history['loss'])
+plt.plot(r.history['val_loss'])
+y_pred = np.argmax(model.predict(X_test), axis=1)
+y_pred
+test_accuracy = accuracy_score(y_pred,y_test)
+test_accuracy
+from sklearn.metrics import precision_score
+from sklearn.metrics import f1_score
+test_precision = precision_score(y_pred,y_test)
+test_f1 = f1_score(y_pred,y_test)
+print(test_precision)
+print(test_f1)
