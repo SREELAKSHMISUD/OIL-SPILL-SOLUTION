@@ -44,3 +44,44 @@ SUMMARY
 Given the growing concern about marine oil spills and their consequences, we present to you a new solution based on existing technology: a software that detects oil spills and automatically grants access to drones and robots using artificial intelligence. As a result, we hope to be a new solution to a massive problem.
 
 
+import numpy as np # linear algebra
+import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
+
+
+import os
+for dirname, _, filenames in os.walk('/kaggle/input'):
+    for filename in filenames:
+        print(os.path.join(dirname, filename))
+
+import matplotlib.pyplot as plt
+import seaborn as sns
+df = pd.read_csv("/kaggle/input/oil-spill-detection/oil_spill.csv")
+df.head()
+df.isnull().sum()
+df.info()
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
+X = df.drop(columns = 'target')
+y = df['target']
+X_train,X_test,y_train,y_test = train_test_split(X,y,test_size =0.2, random_state =45)
+X_train.shape
+X_test.shape
+from sklearn.ensemble import RandomForestClassifier
+clf = RandomForestClassifier(n_estimators = 100,
+                             random_state=45)
+clf.fit(X_train,y_train)
+from sklearn.metrics import accuracy_score
+X_train_pred = clf.predict(X_train)
+training_accuracy = accuracy_score(X_train_pred, y_train)
+training_accuracy
+X_test_pred = clf.predict(X_test)
+test_accuracy = accuracy_score(X_test_pred, y_test)
+test_accuracy
+import tensorflow as tf
+import keras
+model = keras.Sequential([
+                        keras.layers.Flatten(input_shape = (49,)),
+                        keras.layers.Dense(500, activation='relu'),
+                        keras.layers.Dense(100, activation = 'relu'),
+                        keras.layers.Dense(2, activation = 'softmax')
+])
