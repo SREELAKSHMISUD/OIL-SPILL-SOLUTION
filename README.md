@@ -45,3 +45,10 @@ Given the growing concern about marine oil spills and their consequences, we pre
 
 
 
+#SDOSS
+
+How to configure web app
+
+1. Clone git repo
+
+ $ git clone "https://github.com/madhav2180/Use-Me.git"
