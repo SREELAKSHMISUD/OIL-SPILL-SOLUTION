@@ -83,7 +83,7 @@ Given the growing concern about marine oil spills and their consequences, we pre
 
    $ streamlit run .\imgpredict.py   
 
-# How to configure mobile app
+# HOW TO CONFIGURE MOBILE APP
 
 1. Before running your project,make sure to run the following commands:
 
