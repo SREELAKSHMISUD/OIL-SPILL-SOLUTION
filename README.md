@@ -56,16 +56,23 @@ How to configure web app
 2. Create virtual env
 
    $ pip install virtualenv
-	$  python -m venv env
-	$  ./env/Scripts/activate
+	
+   $  python -m venv env
+
+   $  ./env/Scripts/activate
 
 3. Import Modules
 
    $ pip install keras
+   
    $ pip install pillow
+   
    $ pip install numpy
+
    $ pip install tensorflow
+   
    $ pip install opencv-python   
+   
    $ pip install virtualenv
 	
 4. Execute prediction model
