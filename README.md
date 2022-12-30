@@ -45,10 +45,43 @@ Given the growing concern about marine oil spills and their consequences, we pre
 
 
 
-#SDOSS
+# SDOSS
 
 How to configure web app
 
 1. Clone git repo
 
- $ git clone "https://github.com/madhav2180/Use-Me.git"
+   $ git clone "https://github.com/SREELAKSHMISUD/OIL-SPILL-SOLUTION.git"
+	
+2. Create virtual env
+
+   $ pip install virtualenv
+	$  python -m venv env
+	$  ./env/Scripts/activate
+
+3. Import Modules
+
+   $ pip install keras
+   $ pip install pillow
+   $ pip install numpy
+   $ pip install tensorflow
+   $ pip install opencv-python   
+   $ pip install virtualenv
+	
+4. Execute prediction model
+
+   $ python ./main.py      
+	
+5. Run stremlit app
+
+   $ streamlit run .\imgpredict.py   
+
+# How to configure mobile app
+
+1. Before running your project,make sure to run the following commands:
+
+1.flutter pub get
+
+2.flutter packages pub run build_runner build --delete-conflicting-outputs
+
+This creates the generated code necessary for the project to run.
