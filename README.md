@@ -47,7 +47,7 @@ Given the growing concern about marine oil spills and their consequences, we pre
 
 # SDOSS
 
-How to configure web app
+# HOW TO CONFIGURE WEB APP
 
 1. Clone git repo
 
