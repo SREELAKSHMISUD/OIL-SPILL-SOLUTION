@@ -111,6 +111,11 @@ Laser Fluorosensors:
 https://inis.iaea.org/search/search.aspx?orig_q=RN:35072646
 https://www.sciencedirect.com/science/article/pii/B9781856179430100073
 
+cost for water robots:
+https://www.americanscientist.org/article/the-robot-ocean-network#:~:text=The%20most%20advanced%2C%20but%20also,as%20deep%20as%206%2C000%20meters
+
+
+
 
 
 
