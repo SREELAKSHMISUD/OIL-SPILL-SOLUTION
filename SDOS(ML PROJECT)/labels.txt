@@ -1,0 +1,5 @@
+0 Crude Oil
+1 Petrol
+2 Diesel
+3 Toxic Oil
+4 Vegetable Oil
