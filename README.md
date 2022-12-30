@@ -138,3 +138,6 @@ Supppose there is a small amount of leakage. The alert system is set on and the 
 6.Python Modules
 
 
+# ESTIMATED COST
+
+7.1 - 7.5 Million
