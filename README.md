@@ -84,8 +84,7 @@ Given the growing concern about marine oil spills and their consequences, we pre
    $ streamlit run .\imgpredict.py   
 
 # HOW TO CONFIGURE MOBILE APP
-
-1. Before running your project,make sure to run the following commands:
+Before running your project,make sure to run the following commands:
 
 1.flutter pub get
 
