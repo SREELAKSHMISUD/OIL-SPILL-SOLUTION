@@ -92,3 +92,26 @@ How to configure web app
 2.flutter packages pub run build_runner build --delete-conflicting-outputs
 
 This creates the generated code necessary for the project to run.
+
+# REFERENCES
+
+WHAT WOULD THE ECONOMIC COST OF AN OIL SPILL BE?
+https://twnsacredtrust.ca/concerns/economic-cost-oil-spill/
+
+The Modem M64 is a two-way half-duplex 64bps acoustic modem with a robust and user configurable data link,which is used as a communication medium between the sensors:
+https://twnsacredtrust.ca/concerns/economic-cost-oil-spill/
+
+number of oil spills per year:
+https://drive.google.com/file/d/1Ae3rkUGBvjlG6Fsul5UnGf8yAIWvpvXA/view?usp=share_link
+
+Different type and sizes of tanker vessels:
+https://www.maritimeoptima.com/blogdata/different-type-and-sizes-of-tanker-vessels
+
+Laser Fluorosensors:
+https://inis.iaea.org/search/search.aspx?orig_q=RN:35072646
+https://www.sciencedirect.com/science/article/pii/B9781856179430100073
+
+
+
+
+
