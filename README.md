@@ -45,7 +45,7 @@ Given the growing concern about marine oil spills and their consequences, we pre
 
 
 
-# SDOSS
+# SDOS
 
 # HOW TO CONFIGURE WEB APP
 
