@@ -119,6 +119,11 @@ https://www.americanscientist.org/article/the-robot-ocean-network#:~:text=The%20
 
 Supppose there is a small amount of leakage. The alert system is set on and the amount of flow is indicated using an intensity bar. As planned, the drones are deployed and the type of oil and the amount of flow is mapped. Then the required amount of water robots are sent.
 
-
+# STACK'S USED
+1.Flutter Flow
+2.Firebase
+3.Google Teachable Machine
+4.Tensorflow
+5.Python Modulea
 
 
