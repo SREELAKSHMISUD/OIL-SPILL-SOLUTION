@@ -115,7 +115,9 @@ cost for water robots:
 https://www.americanscientist.org/article/the-robot-ocean-network#:~:text=The%20most%20advanced%2C%20but%20also,as%20deep%20as%206%2C000%20meters
 
 
+# ASSUMPTIONS
 
+Supppose there is a small amount of leakage. The alert system is set on and the amount of flow is indicated using an intensity bar. As planned, the drones are deployed and the type of oil and the amount of flow is mapped. Then the required amount of water robots are sent.
 
 
 
