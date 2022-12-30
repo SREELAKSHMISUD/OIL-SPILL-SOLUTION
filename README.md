@@ -121,9 +121,17 @@ Supppose there is a small amount of leakage. The alert system is set on and the 
 
 # STACK'S USED
 1.Flutter Flow
+
+
 2.Firebase
+
+
 3.Google Teachable Machine
+
+
 4.Tensorflow
+
+
 5.Python Modulea
 
 
